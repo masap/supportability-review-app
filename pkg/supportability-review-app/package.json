@@ -2,6 +2,7 @@
   "name": "supportability-review-app",
   "description": "supportability-review-app plugin",
   "version": "0.1.0",
+  "license": "UNLICENSED",
   "private": false,
   "rancher": {
     "annotations": {
@@ -9,7 +10,13 @@
       "catalog.cattle.io/rancher-version": ">= 2.9.0-0 < 2.10.0-0"
     }
   },
-  "scripts": {},
+  "scripts": {
+    "dev": "nuxt dev",
+    "nuxt": "nuxt",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
+    "format": "prettier --write ./",
+    "format-check": "prettier --check ./"
+  },
   "engines": {
     "node": ">=16"
   },
@@ -20,7 +27,8 @@
     "cache-loader": "^4.1.0",
     "color": "4.2.3",
     "ip": "2.0.1",
-    "node-polyfill-webpack-plugin": "^3.0.0"
+    "node-polyfill-webpack-plugin": "^3.0.0",
+    "prettier": "^3.3.2"
   },
   "resolutions": {
     "d3-color": "3.1.0",

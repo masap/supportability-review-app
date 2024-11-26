@@ -1,6 +1,7 @@
 {
   "name": "supportability-review-app-dummy",
   "version": "0.1.0",
+  "license": "UNLICENSED",
   "private": false,
   "engines": {
     "node": ">=16"
