@@ -3,14 +3,13 @@
   "version": "0.1.0",
   "private": false,
   "engines": {
-    "node": ">=20"
+    "node": ">=16"
   },
   "dependencies": {
-    "@rancher/shell": "^3.0.0"
+    "@rancher/shell": "2.0.1"
   },
   "resolutions": {
-    "@types/node": "~20.10.0",
-    "@types/lodash": "4.17.5"
+    "@achrinza/node-ipc": "^10.1.11"
   },
   "scripts": {
     "dev": "NODE_ENV=dev ./node_modules/.bin/vue-cli-service serve",
