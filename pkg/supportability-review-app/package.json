@@ -1,7 +1,7 @@
 {
   "name": "supportability-review-app",
-  "description": "supportability-review-app plugin",
-  "version": "0.1.0",
+  "description": "Supportability Review UI Extension",
+  "version": "103.0.0-up0.1.0",
   "private": false,
   "rancher": {
     "annotations": {
