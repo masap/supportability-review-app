@@ -1,0 +1,23 @@
+apiVersion: v1
+entries:
+  supportability-review-app:
+  - annotations:
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/namespace: cattle-ui-plugin-system
+      catalog.cattle.io/os: linux
+      catalog.cattle.io/permits-os: linux, windows
+      catalog.cattle.io/rancher-version: < 2.9.0
+      catalog.cattle.io/scope: management
+      catalog.cattle.io/ui-component: plugins
+      catalog.cattle.io/ui-extensions-version: < 3.0.0
+    apiVersion: v2
+    appVersion: 103.0.0-up0.1.0
+    created: "2025-01-08T06:44:43.639561602Z"
+    description: Supportability Review UI Extension
+    digest: 0c458e25cbc467a95dd7191d761fbc81f832eb80652960b97db22f5f92df8cad
+    name: supportability-review-app
+    type: application
+    urls:
+    - assets/supportability-review-app/supportability-review-app-103.0.0-up0.1.0.tgz
+    version: 103.0.0-up0.1.0
+generated: "2025-01-08T06:44:43.638704742Z"
